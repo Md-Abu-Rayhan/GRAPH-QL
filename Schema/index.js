@@ -1,6 +1,6 @@
 const { GraphQLObjectType, GraphQLSchema } = require('graphql');
 const { users, user } = require('./Queries/user');
-const { createUser } = require('./Mutations/user');  // Assume you've moved createUser to a Mutations folder
+const { createUser } = require('./Mutations/user');  
 
 const RootQuery = new GraphQLObjectType({
     name: 'RootQueryType',
